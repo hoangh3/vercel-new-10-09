@@ -16,10 +16,7 @@ export default function PostHeader({
       <PostTitle>{title}</PostTitle>
       <div className="max-w-2xl mx-auto">
         <div className="mb-6 text-lg font-bold flex flex-row items-center gap-3">
-          <span>
-            {author.node.name || null}
-          </span>
-          Posted <Date dateString={date} />
+          You are being redirected to the post, please wait 1-2 seconds...
         </div>
       </div>
     </>
